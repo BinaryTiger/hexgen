@@ -9,7 +9,8 @@ options = {
     "sea_percent": 60,
     "hydrosphere": True,
     "num_rivers": 50,
-    "num_territories": 50
+    "num_territories": 50,
+    "export_type": "json"
 }
 
-generate(options)
+print(generate(options, image=False))

@@ -11,6 +11,13 @@ I'm using this as a board for a browser-based game I am working on. It can be us
 
 ## How to use
 
+### Setup
+Please note that the path in the makefile might not represent your actual python path and could need to be changed.
+```make``` in directory
+```sudo python3 setup.py install```
+```python3 bin/example.py```
+
+
 ### Export types
 The primary export of Hexgen is a data structure that represents the world map. It can also export a bunch of png files that show various features on the map.
 
